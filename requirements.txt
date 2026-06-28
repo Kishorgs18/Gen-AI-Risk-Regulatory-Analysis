@@ -1,7 +1,10 @@
-langchain
-chromadb
-openai
-fastapi
-uvicorn
-pdfplumber
-python-dotenv
+langchain>=0.2
+langchain-community>=0.2
+langchain-openai>=0.1
+langchain-chroma>=0.1
+chromadb>=0.5
+pypdf>=4.0
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+python-dotenv>=1.0
