@@ -1,10 +1,15 @@
 langchain>=0.2
 langchain-community>=0.2
 langchain-openai>=0.1
+langchain-groq>=0.1
 langchain-chroma>=0.1
+langchain-text-splitters>=0.2
 chromadb>=0.5
+fastembed>=0.3
 pypdf>=4.0
 fastapi>=0.110
 uvicorn>=0.29
 python-multipart>=0.0.9
 python-dotenv>=1.0
+streamlit>=1.36
+pytest>=8.0

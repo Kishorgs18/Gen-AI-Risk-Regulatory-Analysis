@@ -1,7 +1,8 @@
 """Embeds documents and stores them in an in-memory Chroma vector store."""
 from langchain_chroma import Chroma
-from langchain_openai import OpenAIEmbeddings
+
+from providers import get_embeddings
 
 
 def store_embeddings(docs):
-    return Chroma.from_documents(docs, OpenAIEmbeddings())
+    return Chroma.from_documents(docs, get_embeddings())
